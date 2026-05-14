@@ -6,7 +6,7 @@
 #define LORA_CS    4
 #define LORA_IRQ   1
 #define LORA_RST   3
-#define LORA_IO1   2 // busy pin
+#define LORA_IO1   1
 
 // Cấu hình SPI
 #define LORA_SCK   7
@@ -14,7 +14,7 @@
 #define LORA_MOSI  9
 
 // Cấu hình LED và Nút
-#define BOARD_LED LED_BUILTIN
+#define BOARD_LED 2
 #define STOP_BTN  5
 #define LED_ON    LOW
 #define LED_OFF   HIGH
